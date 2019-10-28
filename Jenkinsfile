@@ -10,7 +10,6 @@ pipeline {
             steps {
                 sh './main'
 		sh 'pwd'
-		sh 'ls -ltr'
             }	
 	}
     }
